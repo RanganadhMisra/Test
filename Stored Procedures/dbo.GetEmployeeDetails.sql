@@ -6,5 +6,6 @@ CREATE PROCEDURE [dbo].[GetEmployeeDetails]
 AS
 BEGIN
 SELECT * FROM dbo.Employee
+SELECT * FROM dbo.userdetailss
 end
 GO
