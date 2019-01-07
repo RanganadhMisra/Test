@@ -1,0 +1,8 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[GetUserDetails]
+AS
+BEGIN 
+SELECT * FROM userdetailss 
+END 
+GO
